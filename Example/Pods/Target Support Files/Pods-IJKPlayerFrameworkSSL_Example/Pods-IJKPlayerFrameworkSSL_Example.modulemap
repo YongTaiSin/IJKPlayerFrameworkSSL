@@ -1,0 +1,6 @@
+framework module Pods_IJKPlayerFrameworkSSL_Example {
+  umbrella header "Pods-IJKPlayerFrameworkSSL_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'IJKPlayerFrameworkSSL_Example' do
+  pod 'IJKPlayerFrameworkSSL', :path => '../'
+
+  target 'IJKPlayerFrameworkSSL_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

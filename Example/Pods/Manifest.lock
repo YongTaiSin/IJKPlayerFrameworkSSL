@@ -1,0 +1,16 @@
+PODS:
+  - IJKPlayerFrameworkSSL (0.1.0)
+
+DEPENDENCIES:
+  - IJKPlayerFrameworkSSL (from `../`)
+
+EXTERNAL SOURCES:
+  IJKPlayerFrameworkSSL:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IJKPlayerFrameworkSSL: cbfd830139b67d86102867461e96a784899911d3
+
+PODFILE CHECKSUM: d667ef438f0e286c5318820338484088bf0345a9
+
+COCOAPODS: 1.11.3
