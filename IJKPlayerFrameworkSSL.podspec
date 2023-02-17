@@ -28,6 +28,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+      
   s.vendored_frameworks = 'IJKPlayerFrameworkSSL/Classes/IJKMediaFramework.framework'
   
   s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
