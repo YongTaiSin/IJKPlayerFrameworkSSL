@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IJKPlayerFrameworkSSL'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基于FFMpeg 4.0支持SSL的IJKPlayer framework.'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/YongTaiSin/IJKPlayerFrameworkSSL'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '杨健' => '971175049@qq.com' }
+  s.author           = { 'YongTaiSin' => '971175049@qq.com' }
   s.source           = { :git => 'https://github.com/YongTaiSin/IJKPlayerFrameworkSSL.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
